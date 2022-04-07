@@ -20,14 +20,14 @@ User has 10 rounds to win!
 User Choices VS Computer Choices:
 
 1 => Rock Vs Rock ("Draw")
-2 => Paper Vs Paper ("Draw")
-3 => Scissors Vs Scissors ("Draw")
-4 => Rock Vs Scissors ("User Win")
-5 => Scissors Vs Paper ("User Win")
-6 => Paper Vs Rock ("User Win")
-7 => Scissors Vs Rock ("User Lost")
-8 => Paper Vs Scissors ("User Lost")
-9 => Rock Vs Paper ("User Lost")
+////// 2 => Paper Vs Paper ("Draw")
+////// 3 => Scissors Vs Scissors ("Draw")
+////// 4 => Rock Vs Scissors ("User Win")
+////// 5 => Scissors Vs Paper ("User Win")
+////// 6 => Paper Vs Rock ("User Win")
+////// 7 => Scissors Vs Rock ("User Lost")
+////// 8 => Paper Vs Scissors ("User Lost")
+////// 9 => Rock Vs Paper ("User Lost")
 
 But Before the game start; the user has to sign up since he's not allowed yet to access the game yet.
 //////////////////////////////////
