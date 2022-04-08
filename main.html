@@ -10,6 +10,7 @@
    <!-- CDNJS and google font start -->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CDNJS and google font end -->
 
@@ -24,18 +25,43 @@
     <title>Game</title>
 </head>
 <body>
+    <br>
+    <div class="M"></div>
+    <div>
+        <br>
     <div class="sign-up-form">
+        <!-- <div id="signUp"> -->
     <h1>Sign Up</h1>
-<form>
+<form >
     <input id="FN" type="text" class="input-box" placeholder="first Name">
     <input id="LN" type="text" class="input-box" placeholder="Last Name">
     <input id="EM" type="email" class="input-box" placeholder="E-mail@">
     <input id="PW" type="password" class="input-box" placeholder="Password">
+    <div class="message">
+        <p></p>
+    </div>
+    <br>
     <p> <span> <input type="checkbox"> </span> I agree to the terms of the game</p>
     <button id="Submit" type="submit" class="sign-up-btn">Continue</button>
     <hr>
-    <p>You already have an account ? <a href="#">Log In</a></p>
+    <!-- <p>You already have an account ? <p onclick="show()">Log in</p>
+</p> -->
 </form>
+</div>
+<!-- <div class="log_in">
+    <h1>Log In</h1>
+<form>
+    <input id="E_M" type="email" class="input-box" placeholder="E-mail@">
+    <input id="P_W" type="password" class="input-box" placeholder="Password">
+    <div class="message">
+        <p>Message</p>
+    </div>
+    <br>
+    <p> <span> <input type="checkbox"> </span> I agree to the terms of the game</p>
+    <button id="LoGIn" type="submit" class="log-in-btn">Connect</button>
+    <hr>
+</form>
+</div> -->
 </div>
 <div class="Hidden">
 <header>
@@ -44,29 +70,32 @@
 <div class="score-board">
   <div id="user-la" class="badge">User</div>
   <div id="computer-la" class="badge">Comp</div>
-  <span id="user-score">0</span> <span id="computer-score">0</span>
+  <span id="user-score">0</span>:<span id="computer-score"> 0</span>
 </div>
 <div class="result">
-  <p>Paper covers rock. You win.</p>  
+    <button type="submit" class="btn-reset"> Restart </button>
+  <p></p>  
 </div>
-
+<br>
+<img id="try" src="Pic\try again.gif">
+<br>
+<img id="over" src="Pic\overgif.gif">
 <div id="Choices" class="choices">
-    <div id="p" class="choice">
-        <img src="Pic\paper.jpg" width="192" height="192" onclick="dbox()">
+    <div id="paper" class="choice">
+        <i class="fa fa-hand-paper-o" style="font-size:200px;color:rgb(230, 178, 38)"></i>
     </div>
-    <div id="r" class="choice">
-        <img src="Pic\rock.jpg" width="192" height="192">
+    <div id="rock" class="choice">
+        <i class="fa fa-hand-rock-o" style="font-size:200px;color:rgb(230, 178, 38)"></i>
     </div>
-    <div id="s" class="choice">
-        <img src="Pic\scissors.jpg" width="192" height="192">
+    <div id="scissors" class="choice">
+        <i class="fa fa-hand-scissors-o" style="font-size:200px;color:rgb(230, 178, 38)"></i>
     </div>
 </div>
 <p id="action-msg">Make your move</p> &nbsp;
 
 
-
  
-
+<!-- 
 <div class="see">
     <div class="seeMore">
         <button id="seeP" type="button" class="btn-sm"  aria-placeholder="button">See</button>
@@ -77,14 +106,14 @@
     <div class="seeMore">
         <button id="seeS" type="button" class="btn-sm"  aria-placeholder="button">See</button>
     </div>
+</div> -->
 </div>
-</div>
 
 
 
 
 
-    <script src="main.js"></script>
+    <script src="main2.js"></script>
 </body>
 
 </html>
